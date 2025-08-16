@@ -41,6 +41,8 @@
     "picocolors": "^1.1.1",
     "picomatch": "^2.3.1",
     "postcss-value-parser": "^4.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-refresh": "^0.16.0",
     "regenerator-runtime": "^0.14.1",
     "safe-buffer": "^5.2.1",
@@ -58,6 +60,8 @@
     "parcel": "^2.15.4"
   },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -69,5 +73,8 @@
   "bugs": {
     "url": "https://github.com/ahmadigmaz/namaste-react/issues"
   },
-  "homepage": "https://github.com/ahmadigmaz/namaste-react#readme"
+  "homepage": "https://github.com/ahmadigmaz/namaste-react#readme",
+  "browserslist":[
+    "last 2 versions" 
+  ]
 }
