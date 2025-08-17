@@ -1,1 +1,2 @@
 export const LOGO_IMG = "https://play-lh.googleusercontent.com/9w0qBuJdAZmT6j27AW05ieoqErX5lg8Sgq_A-YBXuYG9BPM3RG7HMp7_SquChPP2y58=w480-h960-rw";
+export const CARD_IMG_URL = "https://media-assets.swiggy.com/"
