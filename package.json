@@ -44,6 +44,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-refresh": "^0.16.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
     "regenerator-runtime": "^0.14.1",
     "safe-buffer": "^5.2.1",
     "semver": "^7.7.2",
@@ -74,7 +76,7 @@
     "url": "https://github.com/ahmadigmaz/namaste-react/issues"
   },
   "homepage": "https://github.com/ahmadigmaz/namaste-react#readme",
-  "browserslist":[
-    "last 2 versions" 
+  "browserslist": [
+    "last 2 versions"
   ]
 }
