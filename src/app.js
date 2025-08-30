@@ -6,19 +6,21 @@ import ContactUs from "./components/ConatctUs"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import { Error } from "./components/Error";
-import RestaurantMenu from "./components/RestaurantMenu";
-//import Cart from "./components/Cart";
+import RestaurantMenu from "./components/RestaurantMenu"; 
 const Cart = lazy(()=>import("./components/Cart"))
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 const AppLayout = () =>{
     return (
+        <Provider store={appStore}>
         <div className = "app">
             <Header/>
             <Outlet/>
         </div>
+        </Provider>
     );
 }
-
 const appRouter = createBrowserRouter([
     {
         path: "/",

@@ -3,20 +3,29 @@ import { CARD_IMG_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 
 const RestaurantCard = (props) =>{
-   const { name, cuisines, avgRating, sla, costForTwo, cloudinaryImageId, id} = props.ResData;
+   const { name, cuisines, avgRating, sla, costForTwo, cloudinaryImageId, id, promoted} = props.ResData;
 
    return ( <Link to={`restaurant/${id}`} >
-     <div className="card-container">
-        <img className="card-image" alt="card-image" src={CARD_IMG_URL + cloudinaryImageId}/>
-        <div className="card-items">
-            <h3 >{name}</h3>
-            <h3>{cuisines.join(",")}</h3>
-            <h3>{avgRating}</h3>
-            <h3>{costForTwo}</h3>
+     <div className="m-4 p-4 w-[250px] shadow-2xl rounded-lg bg-amber-100 hover:bg-gray-700">
+        <img className="rounded-lg" alt="card-image" src={CARD_IMG_URL + cloudinaryImageId}/>
+        <div className="card-items wrap-anywhere">
+            <h3 className="font-bold py-4 text-lg">{name}</h3>
+            <h3 className="font-bold py-1">{cuisines.join(",")}</h3>
+            <h3 className="font-bold py-1">{avgRating}</h3>
+            <h3 className="font-bold py-1">{costForTwo}</h3>
         </div>
     </div>
     </Link>
    )
+}
+export const promotedRestaurant = (restaurant)=>{
+    return (props)=>{
+        return(
+        <div>
+        <label className="absolute bg-white text-black m-2 p-2 rounded-lg">Promoted</label>
+        <RestaurantCard {...props}/>
+        </div>
+    )}
 }
 
 export default RestaurantCard
