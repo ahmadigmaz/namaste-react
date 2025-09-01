@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { CARD_IMG_URL } from "../utils/constants";
-import { Link } from "react-router-dom";
 
 const RestaurantCard = (props) =>{
    const { name, cuisines, avgRating, sla, costForTwo, cloudinaryImageId, id, promoted} = props.ResData;

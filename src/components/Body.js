@@ -10,6 +10,7 @@ const [listOfAllRestaurant, setListOfAllRestaurant] = useState([]);
 const [inputText,setInputText] = useState("");
 
 const data = useResInfo();
+console.log(data)
 useEffect(() => {
 if (data.length) {
     setListOfAllRestaurant(data);

@@ -1,0 +1,91 @@
+{
+    "id": "756637",
+    "name": "Millet Express",
+    "cloudinaryImageId": "75f8103a06f57c043f26343fa42e23e2",
+    "locality": "K R Puram",
+    "areaName": "Mahadevapura",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+        "Healthy Food",
+        "South Indian"
+    ],
+    "avgRating": 4.1,
+    "parentId": "10639",
+    "avgRatingString": "4.1",
+    "totalRatingsString": "1.5K+",
+    "promoted": true,
+    "adTrackingId": "cid=32535622~p=0~adgrpid=32535622#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=756637~plpr=COLLECTION~eid=e8049705-546c-4087-ae84-1525ef5eccac~srvts=1756697895027~collid=80377",
+    "sla": {
+        "deliveryTime": 36,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35-40 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2025-09-01 15:00:00",
+        "opened": true
+    },
+    "badges": {
+        "textExtendedBadges": [
+            {
+                "iconId": "guiltfree/GF_Logo_android_3x",
+                "shortDescription": "options available",
+                "fontColor": "#7E808C"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "textBased": {},
+            "imageBased": {},
+            "textExtendedBadges": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "description": "",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹69",
+        "logoCtx": {
+            "text": "BENEFITS"
+        }
+    },
+    "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {},
+        "commsStyling": {}
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "--"
+        }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    "campaignId": "32535622"
+}

@@ -14,12 +14,13 @@ const btnNamehandler = () => {
 const cartItems = useSelector((store)=>store.cart.items)
 return(
     <div className="flex justify-between items-center bg-pink-50 shadow-lg px-6 py-3">
-        <div className="w-56">
-            <img alt = "logo-image" src={LOGO_IMG}/>
+        <div className="w-48">
+            <img className="rounded-4xl" alt = "logo-image" src={LOGO_IMG}/>
         </div>
         <div className="flex flex-col items-center">
             <div className="flex items-center gap-4 mb-2">
-                <button className="px-4 py-2 bg-pink-500 text-white font-semibold rounded-lg shadow hover:bg-pink-600 transition" onClick={btnNamehandler}>{btnName? "Logout": "Login"}</button>
+                <button className="px-4 py-2 bg-pink-500 text-white font-semibold rounded-lg shadow hover:bg-pink-600 transition"
+                 onClick={btnNamehandler}>{btnName? "Logout": "Login"}</button>
                 {btnName && <h1 className="text-gray-700 font-bold">{data.logedInUser}</h1>}
             </div>
             <div className="flex space-x-6 text-gray-800 font-semibold">
